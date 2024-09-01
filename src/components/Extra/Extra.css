@@ -1,0 +1,29 @@
+.extra-wrapper{
+    color:white;
+    position: relative;
+    padding-bottom: 2rem;
+    background-color: black;
+}
+
+.extra-container{
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+.extra-title{
+    position: relative;
+    z-index:1;
+}
+
+.image-container{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 4px solid rgb(199, 45, 24);
+}
+
+.image-container>img{
+    width: 100%;
+    height: 100%;
+}
